@@ -4,20 +4,20 @@
 #
 # Tomasz Sochañski <nerdhero@gmail.com>, 2005.
 # Jan Psota <jasiu@belsznica.pl>, 2008, 2009, 2010.
-# Jan Psota <jasiupsota@gmail.com>, 2010.
+# Jan Psota <jasiupsota@gmail.com>, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: pl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 20:57+0100\n"
-"PO-Revision-Date: 2010-05-25 12:37+0200\n"
+"PO-Revision-Date: 2011-01-16 23:56+0100\n"
 "Last-Translator: Jan Psota <jasiupsota@gmail.com>\n"
 "Language-Team: Polish <>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.1\n"
 "X-Language: pl_PL\n"
 
 #: cache.c:761
@@ -537,12 +537,11 @@ msgstr "Sprawdzenie sk³adni."
 
 #: option.c:348
 msgid "Add requestor's MAC address to forwarded DNS queries"
-msgstr ""
+msgstr "Za³±czanie MAC-adresu komputera pytaj±cego w przekazywanych dalej zapytaniach DNS."
 
 #: option.c:349
-#, fuzzy
 msgid "Proxy DNSSEC validation results from upstream nameservers"
-msgstr "T³umaczenie adresów IPv4 z serwerów nadrzêdnych."
+msgstr "Przekazywanie wyników weryfikacji DNSSEC z serwerów nadrzêdnych."
 
 #: option.c:638
 #, c-format
@@ -656,7 +655,7 @@ msgstr "niespójny zakres adresów DHCP"
 
 #: option.c:2013 option.c:2039
 msgid "bad hex constant"
-msgstr ""
+msgstr "zapis niezgodny z formatem szesnastkowym"
 
 #: option.c:2101
 msgid "bad DHCP host name"
@@ -759,7 +758,7 @@ msgstr "przeczyta³em %s"
 
 #: option.c:3229
 msgid "junk found in command line"
-msgstr ""
+msgstr "jakie¶ ¶mieci w linii poleceñ"
 
 #: option.c:3258
 #, c-format
@@ -828,7 +827,7 @@ msgstr "brak wytycznych wyszukiwania w %s"
 
 #: option.c:3398
 #, fuzzy
-msgid "there must be a default domain when --dhcp-qdn is set"
+msgid "there must be a default domain when --dhcp-fqdn is set"
 msgstr "w przypadku u¿ywania --dhcp-fqdn trzeba wskazaæ domy¶ln± domenê"
 
 #: option.c:3402
@@ -851,9 +850,9 @@ msgid "unknown interface %s in bridge-interface"
 msgstr "nieznany interfejs %s w bridge-u"
 
 #: network.c:380
-#, fuzzy, c-format
+#, c-format
 msgid "failed to create listening socket for %s: %s"
-msgstr "b³±d podczas tworzenia gniazda: %s"
+msgstr "nie uda³o siê otworzyæ gniazda %s: %s"
 
 #: network.c:746
 #, c-format

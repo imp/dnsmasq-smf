@@ -1109,7 +1109,7 @@ void dump_cache(time_t now)
 			 cache->flags & F_NXDOMAIN ? "X" : " ",
 			 cache->flags & F_HOSTS ? "H" : " ");
 #ifdef HAVE_BROKEN_RTC
-f	    p += sprintf(p, "%lu", cache->flags & F_IMMORTAL ? 0: (unsigned long)(cache->ttd - now));
+	    p += sprintf(p, "%lu", cache->flags & F_IMMORTAL ? 0: (unsigned long)(cache->ttd - now));
 #else
 	    p += sprintf(p, "%s", cache->flags & F_IMMORTAL ? "\n" : ctime(&(cache->ttd)));
 	    /* ctime includes trailing \n - eat it */

@@ -3395,7 +3395,7 @@ void read_opts(int argc, char **argv, char *compile_opts)
 	  }
     }
   else if (option_bool(OPT_DHCP_FQDN))
-    die(_("there must be a default domain when --dhcp-qdn is set"), NULL, EC_BADCONF);
+    die(_("there must be a default domain when --dhcp-fqdn is set"), NULL, EC_BADCONF);
 
   if (testmode)
     {

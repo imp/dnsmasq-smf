@@ -817,7 +817,7 @@ msgid "no search directive found in %s"
 msgstr ""
 
 #: option.c:3398
-msgid "there must be a default domain when --dhcp-qdn is set"
+msgid "there must be a default domain when --dhcp-fqdn is set"
 msgstr ""
 
 #: option.c:3402

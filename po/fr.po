@@ -851,7 +851,7 @@ msgstr "pas de directive de recherche trouvée dans %s"
 
 #: option.c:3398
 #, fuzzy
-msgid "there must be a default domain when --dhcp-qdn is set"
+msgid "there must be a default domain when --dhcp-fqdn is set"
 msgstr "un domaine par défaut doit être spécifié lorsque l'option --dhcp-fqdn est utilisée"
 
 #: option.c:3402

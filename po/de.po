@@ -840,7 +840,7 @@ msgstr "keine \"search\"-Anweisung in %s gefunden"
 
 #: option.c:3398
 #, fuzzy
-msgid "there must be a default domain when --dhcp-qdn is set"
+msgid "there must be a default domain when --dhcp-fqdn is set"
 msgstr "für --dhcp-fqdn muss eine Domäne vorausgewählt werden"
 
 #: option.c:3402
