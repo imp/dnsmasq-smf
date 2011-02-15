@@ -64,7 +64,7 @@ msgstr "tamaño de caché %d, %d/%d inserciónes de caché reutilizaron objetos no v
 msgid "queries forwarded %u, queries answered locally %u"
 msgstr "búsquedas reenviadas %u, búsquedas respondidas localmente %u"
 
-#: cache.c:1065
+#: cache.c:1068
 #, c-format
 msgid "server %s#%d: queries sent %u, retried or failed %u"
 msgstr "servidor %s#%d: búsquedas enviadas %u, reintentadas o fallidas %u"

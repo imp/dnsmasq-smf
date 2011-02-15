@@ -4,10 +4,10 @@
 # Translation completed by Gildas Le Nadan <3ntr0p13@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: dnsmasq 2.53\n"
+"Project-Id-Version: dnsmasq 2.56\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-18 12:24+0100\n"
-"PO-Revision-Date: 2010-05-21 11:39+0100\n"
+"PO-Revision-Date: 2011-02-10 20:40+0100\n"
 "Last-Translator:  Gildas Le Nadan <3ntr0p13@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -63,7 +63,7 @@ msgstr "taille de cache %d, %d/%d insertions dans le cache entrées non-expirées 
 msgid "queries forwarded %u, queries answered locally %u"
 msgstr "requêtes transmises %u, requêtes résolues localement %u"
 
-#: cache.c:1065
+#: cache.c:1068
 #, c-format
 msgid "server %s#%d: queries sent %u, retried or failed %u"
 msgstr "serveur %s#%d: requêtes envoyées %u, requêtes réessayées ou échouées %u"
@@ -156,17 +156,14 @@ msgid "Set address or hostname for a specified machine."
 msgstr "On assigne une adresse ou un nom pour une machine spécifiée."
 
 #: option.c:258
-#, fuzzy
 msgid "Read DHCP host specs from file."
 msgstr "Lecture des spécifications d'hôtes DHCP à partir du fichier"
 
 #: option.c:259
-#, fuzzy
 msgid "Read DHCP option specs from file."
 msgstr "Lecture des options DHCP à partir du fichier"
 
 #: option.c:260
-#, fuzzy
 msgid "Evaluate conditional tag expression."
 msgstr "Expression d'évaluation conditionnelle d'étiquette"
 
@@ -317,7 +314,6 @@ msgid "Specify time-to-live in seconds for negative caching."
 msgstr "Spécifie le TTL en secondes pour les réponses qui utilisent /etc/hosts."
 
 #: option.c:294
-#, fuzzy
 msgid "Specify time-to-live in seconds for maximum TTL to send to clients."
 msgstr "Spécifie, en secondes, la valeur maximum de TTL à renvoyer aux clients."
 
@@ -489,7 +485,6 @@ msgid "Allow rebinding of 127.0.0.0/8, for RBL servers."
 msgstr "Autorise la réassociation de 127.0.0/8, pour les serveurs RBL (Realtime Blackhole List)"
 
 #: option.c:334
-#, fuzzy
 msgid "Inhibit DNS-rebind protection on this domain."
 msgstr "Désactive la protection contre les réassociation DNS pour ce domaine"
 
@@ -524,9 +519,8 @@ msgid "Use only fully qualified domain names for DHCP clients."
 msgstr "Utilise seulement les noms de domaine pleinement qualifiés pour les clients DHCP."
 
 #: option.c:342
-#, fuzzy
 msgid "Generate hostnames based on MAC address for nameless clients."
-msgstr "Génère les noms d'hôtes à partir de l'adresse MAC pour les clients sans nom,"
+msgstr "Génère les noms d'hôtes à partir de l'adresse MAC pour les clients sans nom."
 
 #: option.c:343
 msgid "Use these DHCP relays as full proxies."
@@ -543,20 +537,19 @@ msgstr "Invite à envoyer aux clients PXE."
 
 #: option.c:346
 msgid "Boot service for PXE menu."
-msgstr "Service de démarrage pour menu PXE"
+msgstr "Service de démarrage pour menu PXE."
 
 #: option.c:347
 msgid "Check configuration syntax."
-msgstr "vérification de la syntaxe de la configuration"
+msgstr "vérification de la syntaxe de la configuration."
 
 #: option.c:348
 msgid "Add requestor's MAC address to forwarded DNS queries"
-msgstr ""
+msgstr "Ajoute l'adresse MAC du requêteur aux requêtes DNS transmises"
 
 #: option.c:349
-#, fuzzy
 msgid "Proxy DNSSEC validation results from upstream nameservers"
-msgstr "Traduit les adresses IPV4 des serveurs amonts."
+msgstr "Transmet les résultats de validation DNSSEC des serveurs amonts"
 
 #: option.c:638
 #, c-format
@@ -605,7 +598,7 @@ msgstr "valeur illégale pour 'dhcp-match'"
 
 #: option.c:1085
 msgid "illegal repeated flag"
-msgstr "Une option ne pouvant être spécifié qu'une seule fois à été donnée plusieurs fois."
+msgstr "Une option ne pouvant être spécifié qu'une seule fois à été donnée plusieurs fois"
 
 #: option.c:1093
 msgid "illegal repeated keyword"
@@ -671,9 +664,8 @@ msgid "inconsistent DHCP range"
 msgstr "plage d'adresses DHCP incohérente"
 
 #: option.c:2013 option.c:2039
-#, fuzzy
 msgid "bad hex constant"
-msgstr "mauvais dhcp-host"
+msgstr "mauvaise constante hexadecimale"
 
 #
 #: option.c:2101
@@ -782,7 +774,7 @@ msgstr "Lecture de %s"
 
 #: option.c:3229
 msgid "junk found in command line"
-msgstr ""
+msgstr "la ligne de commande contient des éléments indésirables ou incompréhensibles"
 
 #: option.c:3258
 #, c-format
@@ -850,7 +842,6 @@ msgid "no search directive found in %s"
 msgstr "pas de directive de recherche trouvée dans %s"
 
 #: option.c:3398
-#, fuzzy
 msgid "there must be a default domain when --dhcp-fqdn is set"
 msgstr "un domaine par défaut doit être spécifié lorsque l'option --dhcp-fqdn est utilisée"
 
@@ -874,9 +865,9 @@ msgid "unknown interface %s in bridge-interface"
 msgstr "interface %s inconnue spécifiée comme interface de pont"
 
 #: network.c:380
-#, fuzzy, c-format
+#, c-format
 msgid "failed to create listening socket for %s: %s"
-msgstr "impossible de créer une socket de lecture : %s"
+msgstr "impossible de créer une socket d'écoute pour %s : %s"
 
 #: network.c:746
 #, c-format

@@ -613,7 +613,7 @@ time and there is no way for dnsmasq to enforce this. It is, for instance,
 useful to allocate a stable IP address to a laptop which
 has both wired and wireless interfaces.
 .TP
-.B --dhcp-hostsfile=<file>
+.B --dhcp-hostsfile=<path>
 Read DHCP host information from the specified file. If a directory
 is given, then read all the files contained in that directory. The file contains 
 information about one host per line. The format of a line is the same
@@ -621,7 +621,7 @@ as text to the right of '=' in --dhcp-host. The advantage of storing DHCP host i
 in this file is that it can be changed without re-starting dnsmasq:
 the file will be re-read when dnsmasq receives SIGHUP.
 .TP
-.B --dhcp-optsfile=<file>
+.B --dhcp-optsfile=<path>
 Read DHCP option information from the specified file.  If a directory
 is given, then read all the files contained in that directory. The advantage of 
 using this option is the same as for --dhcp-hostsfile: the

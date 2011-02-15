@@ -70,7 +70,7 @@ msgstr "ukuran cache %d, %d/%d penyisipan cache menimpa cache yang belum kadaluw
 msgid "queries forwarded %u, queries answered locally %u"
 msgstr ""
 
-#: cache.c:1065
+#: cache.c:1068
 #, c-format
 msgid "server %s#%d: queries sent %u, retried or failed %u"
 msgstr ""

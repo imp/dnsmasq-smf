@@ -69,7 +69,7 @@ msgstr "wielko¶æ pamiêci podrêcznej: %d; %d z %d miejsc aktualnych wpisów u¿yto 
 msgid "queries forwarded %u, queries answered locally %u"
 msgstr "%u zapytañ przes³anych dalej, %u odpowiedzi udzielonych samodzielnie"
 
-#: cache.c:1065
+#: cache.c:1068
 #, c-format
 msgid "server %s#%d: queries sent %u, retried or failed %u"
 msgstr "serwer %s#%d: %u zapytañ wys³anych, %u ponowionych lub nieudanych"

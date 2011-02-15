@@ -69,7 +69,7 @@ msgstr "Cache Größe %d, %d/%d Cache-Einfügungen verwendeten nicht abgelaufene
 msgid "queries forwarded %u, queries answered locally %u"
 msgstr "%u weitergeleitete Anfragen, %u lokal beantwortete Anfragen"
 
-#: cache.c:1065
+#: cache.c:1068
 #, c-format
 msgid "server %s#%d: queries sent %u, retried or failed %u"
 msgstr "Server %s#%d: %u Anfragen gesendet, %u erneut versucht oder fehlgeschlagen"

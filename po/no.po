@@ -66,7 +66,7 @@ msgstr "mellomlager størrelse %d, %d/%d mellomlager innsettinger re-bruker mello
 msgid "queries forwarded %u, queries answered locally %u"
 msgstr ""
 
-#: cache.c:1065
+#: cache.c:1068
 #, c-format
 msgid "server %s#%d: queries sent %u, retried or failed %u"
 msgstr ""

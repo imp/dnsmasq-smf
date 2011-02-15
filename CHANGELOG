@@ -117,6 +117,10 @@ version 2.56
 	    request meant for another DHCP server. NAKing this is
 	    wrong. Thanks to Brad D'Hondt for assistance with this.
 
+	    Fix cosmetic bug which produced strange output when
+	    dumping cache statistics with some configurations. Thanks
+	    to Fedor Kozhevnikov for spotting this.
+
 
 version 2.55
             Fix crash when /etc/ethers is in use. Thanks to 

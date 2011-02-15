@@ -1050,12 +1050,15 @@ void dump_cache(time_t now)
     serv->flags &= ~SERV_COUNTED;
   
   for (serv = daemon->servers; serv; serv = serv->next)
-    if (!(serv->flags & (SERV_NO_ADDR | SERV_LITERAL_ADDRESS | SERV_COUNTED)))
+    if (!(serv->flags & 
+	  (SERV_NO_ADDR | SERV_LITERAL_ADDRESS | SERV_COUNTED | SERV_USE_RESOLV | SERV_NO_REBIND)))
       {
 	int port;
 	unsigned int queries = 0, failed_queries = 0;
 	for (serv1 = serv; serv1; serv1 = serv1->next)
-	  if (!(serv1->flags & (SERV_NO_ADDR | SERV_LITERAL_ADDRESS | SERV_COUNTED)) && sockaddr_isequal(&serv->addr, &serv1->addr))
+	  if (!(serv1->flags & 
+		(SERV_NO_ADDR | SERV_LITERAL_ADDRESS | SERV_COUNTED | SERV_USE_RESOLV | SERV_NO_REBIND)) && 
+	      sockaddr_isequal(&serv->addr, &serv1->addr))
 	    {
 	      serv1->flags |= SERV_COUNTED;
 	      queries += serv1->queries;
