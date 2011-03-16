@@ -388,6 +388,7 @@ void dhcp_packet(time_t now, int pxe_fd)
 	 and not SIOCSXARP, which would be perfect, except that it returns ENXIO 
 	 mysteriously. Bah. Fall back to broadcast for other net types. */
       struct arpreq req;
+      dest.sin_family = AF_INET;
       dest.sin_addr = mess->yiaddr;
       dest.sin_port = htons(daemon->dhcp_client_port);
       *((struct sockaddr_in *)&req.arp_pa) = dest;
